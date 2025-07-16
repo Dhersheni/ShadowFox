@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhersheni - Portfolio Website</title>
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css' />
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="app.js">
+</head>
+
+<body>
+  <!-- imp! Header Section -->
+  <header>
+    <!-- imp! Section-1 (Navbar Section) -->
+    <nav class="navbar navbar-expand-lg dark-black p-5 position-fixed top-0 w-100 z-3">
+      <div class="container">
+        <a href="#"><img src="assets/logo.png" alt="Main-Logo" width="150"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <div class="navbar-collapse collapse mt-3 mt-lg-0" id="navbarToggler">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item  me-lg-5"><a href="#hero-section" class="nav-link text-white">Home</a></li>
+            <li class="nav-item me-lg-5"><a href="#about-section" class="nav-link text-white">About</a></li>
+            <li class="nav-item me-lg-5"><a href="#myskills-section" class="nav-link text-white">Skills</a></li>
+            <li class="nav-item me-lg-5"><a href="#portfolio" class="nav-link text-white">Portfolio</a></li>
+            <li class="nav-item me-lg-5"><a href="#contact-us" class="nav-link text-white">Contact</a></li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <button class="btn-light rounded-pill px-5"><a
+                  class="text-dark p-3 px-0 d-inline-block text-decoration-none h4"
+                  href="assets/Dhersheni_M_Resume (1).pdf" download>My Resume</a></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- imp! Main Section -->
+  <main>
+    <!-- imp! Section-2 (Hero Section) -->
+    <section id="hero-section" class="hero-section mt-100 container-fluid position-relative">
+      <div class="hero-section-overlay position-absolute"></div>
+      <div class="container d-flex justify-content-center align-items-center flex-column">
+        <h1 class="text-white fw-semibold text-center text-sm-start">Dhersheni M</h1>
+        <h2 class="text-white mt-4 mt-lg-5 fw-light text-center"><span class="typing-text"></span></h2>
+      </div>
+    </section>
+    <!-- imp! Section-3 (About Section) -->
+    <section id="about-section" class="about-section container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="d-xl-flex gap-5">
+              <img src="my pic.jpeg" alt="About-Man" width="200" height="225">
+              <div class="profile-description">
+                <p class="mb-4 mt-5 mt-xl-0"><span class="fw-600 grey-clr">Name:</span> Dhersheni M</p>
+                <p class="mb-4"><span class="fw-600 grey-clr">Profile:</span> B.Tech CSBS</p>
+                <p class="mb-4"><span class="fw-600 grey-clr">Email:</span> dhersheni22@gmail.com</p>
+                <p class="mb-4"><span class="fw-600 grey-clr">Phone:</span> 8939122828</p>
+              </div>
+            </div>
+            <div class="skills-main-div mt-5 mb-2">
+              <h3 class="fw-600 mb-5">Currently Learning:</h3>
+              <div class="skills-div mt-4">
+                <div class="mb-2 d-flex justify-content-between">
+                  <span>HTML</span>
+                  <span>70%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%;"></div>
+                </div>
+              </div>
+              <div class="skills-div mt-4">
+                <div class="mb-2 d-flex justify-content-between">
+                  <span>CSS</span>
+                  <span>60%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skills-div mt-4">
+                <div class="mb-2 d-flex justify-content-between">
+                  <span>JavaScript</span>
+                  <span>30%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 75%;"></div>
+                </div>
+              </div>
+              <div class="skills-div mt-4">
+                <div class="mb-2 d-flex justify-content-between">
+                  <span>Python</span>
+                  <span>70%</span>
+                </div>
+                
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 70%;"></div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-6 about-me-description mt-5 mt-lg-0 pt-4 pt-lg-0">
+            <h2 class="fw-600">About me</h2>
+            <div class="blue-line"></div>
+            <p class="mt-4 pt-2 segoe-font">Hi, I’m Dhersheni M, a third-year B.Tech student at SRM University specializing in Computer Science and Business Systems..</p>
+            <p class="segoe-font"> I’m passionate about both tech and management, with interests in programming (C, C++, Python), DSA, data analytics, and web development. I enjoy leadership roles, actively host college events as an MC, and aspire to work in management domains like HR, 
+              marketing, and business analysis, especially in the banking sector.</p>
+            <p class="segoe-font"> I'm also learning Japanese to explore global career opportunities and am currently seeking virtual 
+              internships and workshops to grow and contribute meaningfully.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- imp! Section-4 (Resume Section) -->
+    <section id="resume-section" class="resume-section container-fluid">
+      <div class="container mt-100">
+        <h2 class="text-center fw-600 dark-black-text mt-5">Resume</h2>
+        <div class="blue-line mx-auto"></div>
+    
+      </div>
+      <div class="container">
+        <div class="row justify-content-evenly">
+          <div class="col-lg-5">
+            <h4 class="resume-title dark-black-text fw-600 my-5 my-sm-3">Summary</h4>
+            <div class="resume-item mt-5 ps-5">
+              <h5 class="text-uppercase grey-clr">Dhersheni M</h5>
+              <p class="mt-lg-3 segoe-font">
+                Enthusiastic and goal-oriented Computer Science and Business Systems student with hands-on experience in frontend development and a keen interest in data analytics and artificial intelligence. 
+                Passionate about blending technology with innovation to create impactful solutions.
+              </p>
+              <ul>
+                <li class="p-font-size dark-black-text segoe-font mb-2">SRM University, Tamil Nadu,Chennai</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Phone number: 8939122826</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">dhersheni22@gmail.com.com</li>
+              </ul>
+            </div>
+            <h4 class="resume-title dark-black-text fw-600 my-5">Education</h4>
+            <div class="resume-item ps-5">
+              <h5 class="grey-clr mb-3">High School Graduate</h5>
+              <h6 class="year mb-4">2007 - 2022</h6>
+              <p class="mt-lg-3 segoe-font"><em>PSBBSS School[10th std]</em>
+              </p>
+              <p class="mt-lg-3 segoe-font"><em>Velammal Vidyalaya[12th std]</em>
+              </p>
+              <p class="mt-lg-3 segoe-font mb-0">A highly dedicated and academically bright student throughout school life, consistently securing top marks and demonstrating excellence in both academics and co-curricular activities. Actively participated in public speaking, debate competitions, and cultural events, often representing the school in inter-school contests.
+
+                Known for being a responsible and curious learner with a positive attitude, strong leadership qualities, and a deep interest in subjects like science and technology. Recognized by teachers and peers as dependable, articulate,
+                 and always eager to help others.
+              </p>
+            </div>
+            <div class="resume-item ps-5 pt-5">
+              <h5 class="grey-clr mb-3">BACHELOR OF TECHNOLOGY – Computer Science and Business Systems</h5>
+              <h6 class="year mb-4">2023 – Present</h6>
+              <p class="mt-lg-3 segoe-font"><em>SRM Institute of Science and Technology, Tamil Nadu</em>
+              </p>
+              <p class="mt-lg-3 segoe-font">A passionate and curious learner currently pursuing a B.Tech degree with a unique blend of computer science fundamentals and business acumen. Continuously exploring domains like data analytics, web development, and emerging technologies through hands-on projects and internships.
+
+                Actively involved in seminars, technical workshops, and hackathons. Known for maintaining academic consistency while also contributing to teamwork and leadership in classroom and club activities.
+                 Constantly upskilling through online certifications and self-learning initiatives.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <h4 class="resume-title dark-black-text fw-600 my-5 my-lg-3">Professional Experience</h4>
+            <div class="resume-item ps-5 mt-5">
+              <h5 class="grey-clr mb-3">Full Stack Development Trainee</h5>
+              <h6 class="year mb-4">2024</h6>
+              <p class="mt-lg-3 segoe-font"><em>NSIC Technical Services, Chennai</em>
+              </p>
+              <ul class="mb-0">
+                <li class="p-font-size dark-black-text segoe-font mb-2">Gained hands-on experience in both front-end and back-end web development through 
+                  structured internship training.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Worked with technologies like HTML, CSS, JavaScript, 
+                  and Bootstrap to build interactive web pages.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Contributed to designing and developing responsive, 
+                  user-friendly websites aligned with client requirements.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-0">Learned to work in a development team, 
+                  understanding real-world project workflows and version control.</li>
+              </ul>
+            </div>
+            <div class="resume-item resume-item-1 ps-5 pt-5">
+              <h5 class="grey-clr mb-3">DATA ANALYST TRAINEE</h5>
+              <h6 class="year mb-4">2025</h6>
+              <p class="mt-lg-3 segoe-font"><em>
+                MedTourEasy (Remote Internship)</em>
+              </p>
+              <ul class="mb-0">
+                <li class="p-font-size dark-black-text segoe-font mb-2">Completed a structured data science internship 
+                  focused on data analysis, statistics, and machine learning foundations.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Gained hands-on experience using tools like Python, Excel, and SPSS for data cleaning, transformation, and visualization.
+
+                </li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Worked on practical assignments such as analyzing customer satisfaction in telecom, 
+                  understanding the law of equipartition of energy, and implementing machine learning models.</li>
+                <li class="p-font-size dark-black-text segoe-font mb-2">Delivered weekly project reports
+                   and insights with strong emphasis on real-world problem solving and data-driven decision making.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- imp! Section-5 (Skills-Section) -->
+<section id="myskills-section" class="services-section container-fluid">
+  <div class="container mt-100">
+    <h2 class="text-center fw-600 dark-black-text">My Skills</h2>
+    <div class="blue-line mx-auto"></div>
+    <p class="text-center segoe-font mt-5 mb-3 mb-sm-5 pb-sm-5">
+      A blend of technical expertise, business knowledge, and language proficiency.
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-evenly">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h4 class="mt-5 fw-600">C Programming</h4>
+          <p class="segoe-font">Proficient in writing efficient and modular programs using C. Strong understanding of logic building and control structures.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h4 class="mt-5 fw-600">C++, Python & OOP</h4>
+          <p class="segoe-font">Familiar with C++, Python syntax and core programming principles. Understanding of Object-Oriented Programming concepts.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <h4 class="mt-5 fw-600">HTML & CSS</h4>
+          <p class="segoe-font">Basic knowledge of creating structured web pages and styling them using modern HTML5 and CSS3.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-evenly my-sm-5">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+          <h4 class="mt-5 fw-600">Business Systems</h4>
+          <p class="segoe-font">Understanding of management principles and how technology integrates with business operations.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-chart-bar"></i>
+          </div>
+          <h4 class="mt-5 fw-600">Data Analytics (Learning)</h4>
+          <p class="segoe-font">Currently learning data analysis concepts and practical Python libraries like Pandas and Matplotlib.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-language"></i>
+          </div>
+          <h4 class="mt-5 fw-600">Japanese (N5)</h4>
+          <p class="segoe-font">Elementary proficiency in reading, writing, and basic conversations. Cleared JLPT N5.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+    <!-- imp! Section-7 (Portfolio Section) -->
+    <section id="portfolio" class="portfolio-section container-fluid">
+      <div class="container mt-100">
+        <h2 class="text-center fw-600 dark-black-text">Projects Done</h2>
+        <div class="blue-line mx-auto"></div>
+      </div>
+      <div class="container projects-main-div">
+        <div class="project-div pt-3">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-leaf"></i>
+                </div>
+                <h4 class="mt-4 fw-600">Green Gadgets – Web Development</h4>
+                <p class="segoe-font">Led a cross-functional team to create a user-friendly website promoting sustainable gadgets. Managed timely deliverables and team coordination.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-hospital-user"></i>
+                </div>
+                <h4 class="mt-4 fw-600">MedTour Easy (Ongoing)</h4>
+                <p class="segoe-font">Developing a smart solution for simplifying medical tourism and hospital accessibility using web and app technologies.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-database"></i>
+                </div>
+                <h4 class="mt-4 fw-600">Lounge Eligibility (Data Science)</h4>
+                <p class="segoe-font">Built a data-driven eligibility lookup table using Python for British Airways to model strategic lounge use.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-seedling"></i>
+                </div>
+                <h4 class="mt-4 fw-600">Upskill Campus – Crop Prediction</h4>
+                <p class="segoe-font">Worked on a crop prediction model using machine learning, contributing to sustainable agriculture through data analytics.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-robot"></i>
+                </div>
+                <h4 class="mt-4 fw-600">KKR Robotics R&D Reports(On Going)</h4>
+                <p class="segoe-font">Prepared technical research and reports for robotics initiatives, exploring AMR-based solutions for societal problems.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    
+   <!-- imp! Section-8 (Certifications & Achievements Section with Styling) -->
+<section id="achievements" class="container-fluid py-5" style="background-color: #f8f9fa;">
+  <style>
+    #achievements h2 {
+      font-size: 3.2rem;
+      font-weight: 600;
+      color: #030303;
+    }
+    #achievements .blue-line {
+      width: 5rem;
+      height: 0.3rem;
+      background-color: #0D6EFD;
+      border-radius: 1rem;
+      margin: 1.5rem auto 3rem;
+    }
+    .achievement-card {
+      background-color: #ffffff;
+      border-radius: 1.5rem;
+      box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.08);
+      padding: 2rem;
+      transition: transform 0.3s ease;
+      height: 100%;
+    }
+    .achievement-card:hover {
+      transform: scale(1.02);
+    }
+    .achievement-card h5 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1.2rem;
+    }
+    .achievement-icon {
+      color: #0D6EFD;
+      font-size: 2rem;
+      margin-bottom: 1.2rem;
+    }
+    .achievement-card ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      font-size: 1.6rem;
+      line-height: 1.8;
+      color: #686868;
+    }
+    @media (max-width: 768px) {
+      #achievements h2 {
+        font-size: 2.6rem;
+      }
+      .achievement-card h5 {
+        font-size: 1.8rem;
+      }
+      .achievement-card ul {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+
+  <div class="container mt-100">
+    <h2 class="text-center">Certifications & Achievements</h2>
+    <div class="blue-line"></div>
+
+    <div class="row gy-5 justify-content-center">
+      <!-- Certifications -->
+      <div class="col-md-6 col-lg-4">
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <h5>Certifications</h5>
+          <ul>
+            <li>Design Thinking – NPTEL (Elite + Silver)</li>
+            <li>Database Management Systems – NPTEL</li>
+            <li>JLPT N5 – Japanese Language Proficiency</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MC + Volunteering -->
+      <div class="col-md-6 col-lg-4">
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fa-solid fa-microphone-lines"></i>
+          </div>
+          <h5>MC & Volunteering</h5>
+          <ul>
+            <li>Hosted Codathon 2024 (Arrowdev Club)</li>
+            <li>Led club inaugurations & formal events</li>
+            <li>Volunteered in campus activities</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Paper Presentation -->
+      <div class="col-md-6 col-lg-4">
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fa-solid fa-file-lines"></i>
+          </div>
+          <h5>Paper Presentation</h5>
+          <ul>
+            <li>Cybersecurity in VR Banking</li>
+            <li>Presented at SRM IST, Ramapuram</li>
+            <li>Explored VR threats & solutions</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Extracurriculars -->
+      <div class="col-md-6 col-lg-4">
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fa-solid fa-people-group"></i>
+          </div>
+          <h5>Extracurriculars</h5>
+          <ul>
+            <li>Member of TAARANG (Dance Team)</li>
+            <li>Performed at cultural events</li>
+            <li>Choreographed stage shows</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- imp! Section-9 Replaced: Let's Connect -->
+<section id="contact-us" class="contact-section container-fluid" style="background-color: rgb(10, 10, 10); color: white; padding: 8rem 0;">
+  <style>
+    #contact-us h2 {
+      font-size: 3.2rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    #contact-us .blue-line {
+      width: 5rem;
+      height: 0.3rem;
+      background-color: #0D6EFD;
+      border-radius: 1rem;
+      margin: 1.5rem auto 3rem;
+    }
+
+    .connect-card {
+      background-color: #7a758b;
+      padding: 3rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 0 1.5rem rgba(239, 239, 240, 0.3);
+    }
+
+    .connect-card h4 {
+      font-size: 2rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .connect-card p, .connect-card a {
+      font-size: 1.6rem;
+      color: #ecebf0;
+    }
+
+    .connect-card a {
+      text-decoration: none;
+    }
+
+    .connect-card a:hover {
+      color: #0D6EFD;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .social-links i {
+      font-size: 2rem;
+      color: white;
+      background-color: #0D6EFD;
+      padding: 1rem;
+      border-radius: 50%;
+      transition: transform 0.3s;
+    }
+
+    .social-links i:hover {
+      transform: scale(1.1);
+      background-color: white;
+      color: #0D6EFD;
+    }
+
+    @media (max-width: 768px) {
+      .connect-card {
+        padding: 2rem;
+      }
+
+      #contact-us h2 {
+        font-size: 2.4rem;
+      }
+
+      .connect-card h4 {
+        font-size: 1.8rem;
+      }
+
+      .connect-card p, .connect-card a {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+
+  <div class="container">
+    <h2>Let’s Connect</h2>
+    <div class="blue-line"></div>
+
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-8 col-lg-6">
+        <div class="connect-card text-center">
+          <h4>Email Me</h4>
+          <p><a href="mailto:your.email@example.com">dhersheni22@gmail.com</a></p>
+
+          <h4 class="mt-4">Location</h4>
+          <p>Chennai, Tamil Nadu, India</p>
+
+          <h4 class="mt-4">Follow Me</h4>
+          <div class="social-links justify-content-center">
+            <a href="www.linkedin.com/in/dhersheni-murali22" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Dhersheni" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:dhersheni22@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+  <!-- imp! Section-10 (Footer Section) -->
+  <footer id="footer" class="footer-section container-fluid mt-100">
+    <p class="copyright-txt text-center text-sm-start mb-5 text-white">© Copyright <strong><a>Dhersheni</a></strong> All Rights Reserved</p>
+    <div class="social-icons">
+      <a href="#" class="text-decoration-none"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/app.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+  <script>
+    let typeText = new Typed('.typing-text',{
+      strings: ['B.Tech CSBS Student', 'Passionate Speaker','Aspiring Data Analyst' ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 500,
+      startDelay: 750
+    })
+  </script>
+  <script>
+    new PureCounter({
+      selector: '.counter'
+    })
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+        emailjs.init({
+        publicKey: "GHHfBHkt_4kaYyr3M",
+        });
+    })();
+    </script>
+</body>
+
+</html>
